@@ -14,9 +14,9 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        A o1 = new A();
-        System.out.println(o1.meth());
-        A o2 = new B();
-        System.out.println(o2.meth());
+        B o1 = new B();
+        o1.meth();
+        B o2 = new B();
+        o2.meth();
     }
 }
